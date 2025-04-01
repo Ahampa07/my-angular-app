@@ -1,0 +1,65 @@
+/* Center the app title */
+h1 {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  /* Navigation bar styling */
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #007bff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style links */
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 15px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style buttons */
+  nav button {
+    background: white;
+    color: #007bff;
+    border: none;
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  
+  nav button:hover {
+    background: #0056b3;
+    color: white;
+  }
+  
+  /* Horizontal rule */
+  hr {
+    margin: 20px 0;
+    border: 0;
+    height: 1px;
+    background: #ddd;
+  }
+  
+  /* Container for pages */
+  router-outlet {
+    display: block;
+    padding: 20px;
+  }
+  

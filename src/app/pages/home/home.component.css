@@ -1,0 +1,67 @@
+/* Full-page layout */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: linear-gradient(to right, #007bff, #6610f2);
+    color: white;
+    padding: 20px;
+  }
+  
+  /* Heading styles */
+  .home-container h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+  }
+  
+  .home-container p {
+    font-size: 18px;
+    max-width: 600px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  /* Features section */
+  .features {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    width: 100%;
+    max-width: 900px;
+    margin: 20px 0;
+  }
+  
+  .feature {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 250px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .feature:hover {
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  /* CTA button */
+  .cta-btn {
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-size: 18px;
+    background: white;
+    color: #007bff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .cta-btn:hover {
+    background: #0056b3;
+    color: white;
+  }
+  
